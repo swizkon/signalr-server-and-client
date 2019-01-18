@@ -49,5 +49,11 @@ namespace StockTickR.Hubs
         {
             await Clients.All.SendAsync("Ack", sender);
         }
+        
+        public async Task JoinTournament(string name, string tournament)
+        {
+            await Groups.AddToGroupAsync(Context.ConnectionId, tournament);
+            await Clients.OthersInGroup(tournament).SendAsync("JoinTournament", name, tournament);
+        }
     }
 }
