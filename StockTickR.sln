@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickR", "StockTickRApp\StockTickR.csproj", "{6139B392-E328-46E5-BC60-BCFA3BB42E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockTickR", "StockTickRApp\StockTickR.csproj", "{6139B392-E328-46E5-BC60-BCFA3BB42E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpClient", "CsharpClient\CsharpClient.csproj", "{E4E0DC98-E0C1-41AE-9337-34508BFFCA87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsharpClient", "CsharpClient\CsharpClient.csproj", "{E4E0DC98-E0C1-41AE-9337-34508BFFCA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockCommon", "StockCommon\StockCommon.csproj", "{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6139B392-E328-46E5-BC60-BCFA3BB42E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{E4E0DC98-E0C1-41AE-9337-34508BFFCA87}.Release|x64.Build.0 = Release|Any CPU
 		{E4E0DC98-E0C1-41AE-9337-34508BFFCA87}.Release|x86.ActiveCfg = Release|Any CPU
 		{E4E0DC98-E0C1-41AE-9337-34508BFFCA87}.Release|x86.Build.0 = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|x64.Build.0 = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Debug|x86.Build.0 = Debug|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|x64.ActiveCfg = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|x64.Build.0 = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|x86.ActiveCfg = Release|Any CPU
+		{3432A2AE-30A2-4865-8D4A-0B7AAF7B6EBB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914B6A68-A09F-4CF1-BC62-B85D5AE578DF}
 	EndGlobalSection
 EndGlobal

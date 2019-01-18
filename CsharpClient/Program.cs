@@ -44,8 +44,7 @@ namespace CsharpClient
                 cts.Cancel();
                 return Task.CompletedTask;
             };
-
-
+            
             connection.On("marketOpened", () =>
             {
                 Console.WriteLine("Market opened");
