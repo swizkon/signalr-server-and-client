@@ -19,7 +19,7 @@ namespace CsharpClient
             Tournament = "Tournament #1";
 
             var connection = new HubConnectionBuilder()
-                .WithUrl("http://localhost:64573/stocks")
+                .WithUrl("http://localhost:64572/stocks")
                 .ConfigureLogging(logging =>
                 {
                     logging.AddConsole();
